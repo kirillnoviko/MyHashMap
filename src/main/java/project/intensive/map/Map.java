@@ -8,15 +8,15 @@ public interface Map<K, V>  {
 
     boolean isEmpty();
 
-    V get(Object var1);
+    V get(Object key);
 
-    V put(K var1, V var2);
+    V put(K key, V value);
 
-    V remove(Object var1);
+    V remove(Object key);
 
     void clear();
 
-    boolean equals(Object var1);
+    boolean equals(Object key);
 
     int hashCode();
 
